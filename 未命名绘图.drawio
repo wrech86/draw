@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T11:35:47.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.1" etag="LPUxHF6CHfmT_NqMiM01" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T11:52:28.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="u0lSjxDJ_8x_Lk1Fnds6" version="21.1.1" type="github">
   <diagram name="第 1 页" id="t72GKSflp6nRJGPwYMga">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wvCMIoxA71ohkw-osKcY-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-8" value="调整pid参数" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="364" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-9" value="多目标优化" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="359" y="270" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-13" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;用户&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wvCMIoxA71ohkw-osKcY-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="280" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-16" value="反馈" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="560" y="205" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wvCMIoxA71ohkw-osKcY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="200" as="sourcePoint" />
+            <mxPoint x="520" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvCMIoxA71ohkw-osKcY-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.027;entryY=0.708;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wvCMIoxA71ohkw-osKcY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="300" as="sourcePoint" />
+            <mxPoint x="520" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
